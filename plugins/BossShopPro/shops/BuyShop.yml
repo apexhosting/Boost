@@ -1,0 +1,571 @@
+ShopName: BuyShop
+DisplayName: '&7[&a$&7] &9&lTAGS &7&lSHOP'
+Command: tagshop
+signs:
+  text: '[BuyShop]'
+  NeedPermissionToCreateSign: true
+shop:
+  Tag1:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&a&lSMOOTH &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.smooth
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Tag2:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&b&lCOOL &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.cool
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Tag3:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&8&lAFK &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.afk
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Tag4:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&9&lBOOSTER &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.booster
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Tag5:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&c&lEZ &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.ez
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Tag6:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&3&lCHILL &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.chill
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Tag7:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&2&lPOG &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.pog
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Tag8:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&e&lHAPPY &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.happy
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Tag9:
+    MenuItem:
+    - 'lore:&e$1000'
+    - 'lore:&7(Common)'
+    - name:&9&lWINNER &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.winner
+    PriceType: MONEY
+    Price: 1000.0
+    Message: '&eYou bought a &aCommon &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 9
+  Tag10:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&6&lMILLIONAIRE &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.millionaire
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 10
+  Tag11:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&b&lICEBREAKER &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.icebreaker
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Tag12:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&4&lPRO &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.pro
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 12
+  Tag13:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&0&lEXPERT &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.expert
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+  Tag14:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&3&lKAPPA &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.kappa
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 14
+  Tag15:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&e&lLOL &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.lol
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 15
+  Tag16:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&a&lOOF &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.oof
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 16
+  Tag17:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&c&lYIKES &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.yikes
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 17
+  Tag18:
+    MenuItem:
+    - 'lore:&e$3000'
+    - 'lore:&a(Interesting)'
+    - name:&3&lCLASSIC &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.classic
+    PriceType: MONEY
+    Price: 3000.0
+    Message: '&eYou bought an &eInteresting &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 18
+  Tag19:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&9&lSTREAK &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.streak
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 19
+  Tag20:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&c&lNOPE &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.nope
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 20
+  Tag21:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&4&lF &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.f
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 21
+  Tag22:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&a&lW &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.w
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+  Tag23:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&8&lL &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.l
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 23
+  Tag24:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&d&lKAWAII &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.kawaii
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Tag25:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&b&lFRIENDLY &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.friendly
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 25
+  Tag26:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&c&lR&a&lG&9&lB &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.rgb
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 26
+  Tag27:
+    MenuItem:
+    - 'lore:&e$5000'
+    - 'lore:&c(Rare)'
+    - name:&6&lMLG &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.mlg
+    PriceType: MONEY
+    Price: 5000.0
+    Message: '&eYou bought an &4Rare &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 27
+  Tag28:
+    MenuItem:
+    - 'lore:&e$10000'
+    - 'lore:&5(Unique)'
+    - name:&c&lHOT &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.hot
+    PriceType: MONEY
+    Price: 10000.0
+    Message: '&eYou bought an &5Unique &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 28
+  Tag29:
+    MenuItem:
+    - 'lore:&e$10000'
+    - 'lore:&5(Unique)'
+    - name:&b&lCOLD &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.cold
+    PriceType: MONEY
+    Price: 10000.0
+    Message: '&eYou bought an &5Unique &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 29
+  Tag30:
+    MenuItem:
+    - 'lore:&e$10000'
+    - 'lore:&5(Unique)'
+    - name:&6&lOG &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.og
+    PriceType: MONEY
+    Price: 10000.0
+    Message: '&eYou bought an &5Unique &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 30
+  Tag31:
+    MenuItem:
+    - 'lore:&e$10000'
+    - 'lore:&5(Unique)'
+    - name:&4&lCPS &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.cps
+    PriceType: MONEY
+    Price: 10000.0
+    Message: '&eYou bought an &5Unique &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+  Tag32:
+    MenuItem:
+    - 'lore:&e$10000'
+    - 'lore:&5(Unique)'
+    - name:&1&lWATER &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.water
+    PriceType: MONEY
+    Price: 10000.0
+    Message: '&eYou bought an &5Unique &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 32
+  Tag33:
+    MenuItem:
+    - 'lore:&e$10000'
+    - 'lore:&5(Unique)'
+    - name:&e&lLIGHTNING &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.lightning
+    PriceType: MONEY
+    Price: 10000.0
+    Message: '&eYou bought an &5Unique &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 33
+  Tag34:
+    MenuItem:
+    - 'lore:&e$10000'
+    - 'lore:&5(Unique)'
+    - name:&9&lDOUG &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.doug
+    PriceType: MONEY
+    Price: 10000.0
+    Message: '&eYou bought an &5Unique &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 34
+  Tag35:
+    MenuItem:
+    - 'lore:&c$100000'
+    - 'lore:&7(&6&lULTIMATE&7)'
+    - name:&6&l1.5.2 &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.oldschool
+    PriceType: MONEY
+    Price: 100000.0
+    Message: '&eYou bought an &6&lULTIMATE &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 35
+  Tag36:
+    MenuItem:
+    - 'lore:&aAcquired by being member of Apex Hosting :)'
+    - 'lore:&7(&6&lULTIMATE&7)'
+    - name:&9&lAPEX &7&lTAG
+    - amount:1
+    - type:name_tag
+    RewardType: permission
+    Reward:
+    - deluxetags.tag.apex
+    PriceType: MONEY
+    Price: 0
+    Message: '&eYou bought an &6&lULTIMATE &7Nametag! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 36
+  Playerstats:
+    MenuItem:
+    - 'lore:&2Money: %balance%'
+    - name:&6[tools] &c&l%displayname% &6[tools]
+    - amount:1
+    - type:PLAYER_HEAD
+    - playerhead:%name%
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  Back:
+    MenuItem:
+    - lore:&8Back to Menu
+    - name:&cBack
+    - amount:1
+    - type:REDSTONE
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    Message: '&6Leaving the ItemShop...'
+    ExtraPermission: ''
+    InventoryLocation: 45

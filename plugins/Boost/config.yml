@@ -1,0 +1,320 @@
+# 
+#  Sample game configuration
+#  games:
+#    Arena1:
+#      name: '&aArena1'
+#      ground: 64
+#      ceiling: -1
+#      return_to_start_at_ground: false
+#      target_dist: 150
+#      countdown: 30
+#      min_players: 2
+#      max_players: 0
+#      auto_queue: true
+#      countdown_announce_time: 10
+#      requires_permission: false
+#      boost_block: REDSTONE_ORE
+#      gui_item: GLASS
+#      game_start:
+#        world: world
+#        x: 100
+#        y: 64
+#        z: 0
+#        spread: 4
+#      game_loss:
+#        world: world
+#        x: 0
+#        y: 64
+#        z: 0
+#        yaw: 0
+#      game_lobby:
+#        world: world
+#        x: 0
+#        y: 64
+#        z: 0
+#        yaw: 0
+#      win_commands: []
+#  
+
+language: en
+languages:
+- en
+- cn
+physics:
+  vertical_velocity: 2.0
+  max_horizontal_velocity: 2.5
+  min_horizontal_velocity: 0.1
+  block_hit_horizontal_velocity: 2.5
+  target_box_width: 5
+  target_box_height: 1
+  cooldown: 500
+  game_start_boost_delay: 5
+SQLite: true
+sql:
+  host: 127.0.0.1
+  port: '3306'
+  database: boost
+  user: user
+  pass: password
+boost_worlds:
+- boost_world
+main_lobby:
+  world: Boost_world
+  x: 0
+  y: 4
+  z: 0
+  yaw: 90
+sounds:
+  world_sound_range: 80
+  tick: ITEM_FLINTANDSTEEL_USE
+  join: UI_LOOM_SELECT_PATTERN
+  leave: UI_LOOM_TAKE_RESULT
+  start: ENTITY_EVOKER_PREPARE_SUMMON
+  win: UI_TOAST_CHALLENGE_COMPLETE
+  lose: ENTITY_GHAST_HURT
+  boost: ITEM_TRIDENT_THROW
+  boosted: ITEM_TRIDENT_RIPTIDE_3
+  stats: ENTITY_ENDER_EYE_DEATH
+  leader: ENTITY_ENDER_EYE_DEATH
+gamemode:
+  playing: ADVENTURE
+  lost: SPECTATOR
+  lobby: SURVIVAL
+  build: CREATIVE
+boost_while_queuing: true
+games:
+  Arena1:
+    name: '&6Arena1'
+    ground: 4
+    countdown: 20
+    min_players: 2
+    max_players: 0
+    auto_queue: true
+    game_start:
+      world: Boost_world
+      x: -88
+      y: 28
+      z: 5
+      spread: 4
+      yaw: 0
+    game_lobby:
+      world: Boost_world
+      x: -36
+      y: 4
+      z: 0
+      yaw: 90
+      spread: 0
+    game_loss:
+      world: Boost_world
+      x: -96
+      y: 69
+      z: 0
+      yaw: 90
+      spread: 0
+    win_commands:
+    - eco give %player% 100
+    - cr give to %player% RewardsCrate
+    - titlemanager message %player% &A&lVICTORY\n&E⚡&7Good Game&e⚡
+    target_dist: 150
+    countdown_announce_time: 10
+    ceiling: -1
+    requires_permission: false
+  Arena2:
+    name: '&9Arena2'
+    ground: 4
+    countdown: 20
+    min_players: 2
+    max_players: 0
+    auto_queue: true
+    game_lobby:
+      world: Boost_world
+      x: 0
+      y: 4
+      z: 36
+      yaw: 0
+      spread: 0
+    game_start:
+      world: Boost_world
+      x: 0
+      y: 147
+      z: 130
+      spread: 8
+      yaw: 0
+    game_loss:
+      world: Boost_world
+      x: -20
+      y: 5
+      z: 100
+      yaw: -55
+      spread: 0
+    ceiling: -1
+    target_dist: 150
+    requires_permission: false
+    countdown_announce_time: 10
+    win_commands:
+    - eco give %player% 100
+    - cr give to %player% RewardsCrate
+    - titlemanager message %player% &A&lVICTORY\n&E⚡&7Good Game&e⚡
+  Arena3:
+    name: '&cArena3'
+    ground: 4
+    countdown: 20
+    min_players: 2
+    max_players: 0
+    auto_queue: true
+    game_lobby:
+      world: Boost_world
+      x: 36
+      y: 4
+      z: 0
+      yaw: -90
+      spread: 0
+    game_start:
+      world: Boost_world
+      x: 74
+      y: 51
+      z: 2
+      spread: 2
+      yaw: 0
+    game_loss:
+      world: Boost_world
+      x: 84
+      y: 90
+      z: 0
+      yaw: 90
+      spread: 0
+    target_dist: 150
+    requires_permission: false
+    countdown_announce_time: 10
+    win_commands:
+    - eco give %player% 100
+    - cr give to %player% RewardsCrate
+    - titlemanager message %player% &A&lVICTORY\n&E⚡&7Good Game&e⚡
+  Arena4:
+    name: '&2Arena4'
+    ground: 1
+    countdown: 20
+    min_players: 2
+    max_players: 0
+    auto_queue: true
+    game_lobby:
+      world: Boost_world
+      x: 0
+      y: 4
+      z: -36
+      yaw: 180
+      spread: 0
+    game_start:
+      world: Boost_world
+      x: 0
+      y: 5
+      z: -79
+      spread: 4
+      yaw: 0
+    game_loss:
+      world: Boost_world
+      x: 0
+      y: 30
+      z: -150
+      yaw: 0
+      spread: 0
+    target_dist: 150
+    requires_permission: false
+    countdown_announce_time: 10
+    win_commands:
+    - eco give %player% 100
+    - cr give to %player% RewardsCrate
+    ceiling: -1
+    return_to_start_at_ground: false
+    boost_block: ''
+    gui_item: ''
+  Arena5:
+    name: '&dArena5'
+    ground: -1
+    target_dist: 150
+    countdown: 20
+    min_players: 2
+    max_players: 0
+    auto_queue: true
+    countdown_announce_time: 10
+    requires_permission: false
+    game_start:
+      world: Boost_world
+      x: -120
+      y: 97
+      z: 120
+      yaw: -303
+      spread: 4
+    game_loss:
+      world: Boost_world
+      x: -120
+      y: 105
+      z: 120
+      yaw: -61
+      spread: 0
+    game_lobby:
+      world: Boost_world
+      x: -36
+      y: 4
+      z: 36
+      yaw: -314
+      spread: 0
+    win_commands:
+    - eco give %player% 100
+    - cr give to %player% RewardsCrate
+    - titlemanager message %player% &A&lVICTORY\n&E⚡&7Good Game&e⚡
+    ceiling: 161
+  Arena6:
+    name: '&7Arena6'
+    ground: 11
+    ceiling: -1
+    return_to_start_at_ground: false
+    target_dist: 150
+    countdown: 20
+    min_players: 2
+    max_players: 8
+    auto_queue: true
+    requires_permission: false
+    boost_block: ''
+    gui_item: ''
+    countdown_announce_time: 10
+    win_commands: []
+    game_start:
+      world: Boost_world
+      x: 361
+      y: 47
+      z: -285
+      yaw: 89
+      spread: 0
+    game_lobby:
+      world: Boost_world
+      x: 287
+      y: 109
+      z: -196
+      yaw: 222
+      spread: 0
+    game_loss:
+      world: Boost_world
+      x: 367
+      y: 86
+      z: -285
+      yaw: -88
+      spread: 0
+win_commands:
+  daily:
+    first: []
+    second: []
+    third: []
+  weekly:
+    first: []
+    second: []
+    third: []
+  monthly:
+    first: []
+    second: []
+    third: []
+other_commands:
+  block_while_playing: true;
+  allowed_commands:
+  - boost
+  - msg

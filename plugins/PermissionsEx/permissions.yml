@@ -1,0 +1,325 @@
+groups:
+  Member:
+    options:
+      default: true
+      prefix: '&8[&9Member&8]'
+    permissions:
+    - essentials.pay
+    - essentials.r
+    - essentials.msg
+    - deluxetags.tag.apex
+    - coinflipper.stats
+    - coinflipper.create
+    - coinflipper.gui
+    - coinflipper.help
+    - deluxetags.gui
+    - scoreboard.default
+    - essentials.signs.use.*
+    - modifyworld.*
+  VIP:
+    inheritance:
+    - Member
+    options:
+      prefix: '&8[&eVIP&8]'
+    permissions:
+    - deluxetags.tags.*
+    - deluxetags.tag.*
+  MOD:
+    inheritance:
+    - Member
+    options:
+      prefix: '&8[&a&lMOD&8]&l'
+    permissions:
+    - essentials.fly
+    - essentials.tp
+    - essentials.vanish
+    - essentials.kill
+    - essentials.ban
+    - essentials.tempban
+    - essentials.kick
+    - essentials.mute
+    - essentials.gamemodes.*
+    - essentials.gamemode.*
+  ADMIN:
+    inheritance:
+    - MOD
+    options:
+      prefix: '&8[&c&lADMIN&8]&l'
+    permissions:
+    - essentials.*
+    - boost.admin
+  OWNER:
+    inheritance:
+    - ADMIN
+    options:
+      prefix: '&8[&4&lOWNER&8]&l'
+    permissions:
+    - '*'
+  DEV:
+    permissions:
+    - '*'
+    options:
+      prefix: '&8[&eDev&8]'
+schema-version: 1
+users:
+  bdc83502-6d75-4c26-a633-729e9ed81aee:
+    permissions:
+    - '*'
+    - deluxetags.tag.millionaire
+    - deluxetags.tag.booster
+    - deluxetags.tag.pog
+    - deluxetags.tag.winner
+    - deluxetags.tag.chill
+    - deluxetags.tag.cool
+    - deluxetags.tag.smooth
+    - user.vip
+    options:
+      name: AllanDev
+    group:
+    - Member
+    worlds: {}
+  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
+    worlds:
+      Boost_world:
+        permissions:
+        - deluxetags.tag.hot
+        - deluxetags.tag.og
+        - deluxetags.tag.cps
+        - deluxetags.tag.lightning
+        - deluxetags.tag.doug
+        - deluxetags.tag.oldschool
+        - deluxetags.tag.mlg
+        - deluxetags.tag.rgb
+        - deluxetags.tag.friendly
+        - deluxetags.tag.kawaii
+        - deluxetags.tag.l
+        - deluxetags.tag.f
+        - deluxetags.tag.w
+        - deluxetags.tag.nope
+        - deluxetags.tag.streak
+        - deluxetags.tag.millionaire
+        - deluxetags.tag.icebreaker
+        - deluxetags.tag.pro
+        - deluxetags.tag.expert
+        - deluxetags.tag.kappa
+        - deluxetags.tag.lol
+        - deluxetags.tag.oof
+        - deluxetags.tag.yikes
+        - deluxetags.tag.classic
+        - deluxetags.tag.winner
+        - deluxetags.tag.happy
+        - deluxetags.tag.pog
+        - deluxetags.tag.chill
+        - deluxetags.tag.ez
+        - deluxetags.tag.booster
+        - deluxetags.tag.afk
+        - deluxetags.tag.cool
+        - deluxetags.tag.smooth
+    options:
+      name: robert_beckley
+  be02b491-c9f4-463a-9d64-5cd6bddd8ccc:
+    worlds:
+      Boost_world:
+        permissions:
+        - deluxetags.tag.hot
+        - deluxetags.tag.cold
+        - deluxetags.tag.og
+        - deluxetags.tag.cps
+        - deluxetags.tag.water
+        - deluxetags.tag.mlg
+        - deluxetags.tag.rgb
+        - deluxetags.tag.friendly
+        - deluxetags.tag.kawaii
+        - deluxetags.tag.l
+        - deluxetags.tag.w
+        - deluxetags.tag.f
+        - deluxetags.tag.nope
+        - deluxetags.tag.streak
+        - deluxetags.tag.millionaire
+        - deluxetags.tag.icebreaker
+        - deluxetags.tag.pro
+        - deluxetags.tag.expert
+        - deluxetags.tag.kappa
+        - deluxetags.tag.lol
+        - deluxetags.tag.oof
+        - deluxetags.tag.yikes
+        - deluxetags.tag.classic
+        - deluxetags.tag.winner
+        - deluxetags.tag.happy
+        - deluxetags.tag.pog
+        - deluxetags.tag.chill
+        - deluxetags.tag.ez
+        - deluxetags.tag.booster
+        - deluxetags.tag.afk
+        - deluxetags.tag.cool
+        - deluxetags.tag.doug
+        - deluxetags.tag.oldschool
+        - deluxetags.tag.lightning
+        - deluxetags.tag.smooth
+    options:
+      name: Neon752
+  7e418993-7482-43b2-a8f6-740d6a308ce5:
+    worlds:
+      Boost_world:
+        permissions:
+        - deluxetags.tag.winner
+        - deluxetags.tag.happy
+        - deluxetags.tag.pog
+        - deluxetags.tag.chill
+        - deluxetags.tag.ez
+        - deluxetags.tag.booster
+        - deluxetags.tag.afk
+        - deluxetags.tag.cool
+        - deluxetags.tag.smooth
+        - deluxetags.tag.millionaire
+        - deluxetags.tag.icebreaker
+        - deluxetags.tag.pro
+        - deluxetags.tag.expert
+        - deluxetags.tag.kappa
+        - deluxetags.tag.lol
+        - deluxetags.tag.oof
+        - deluxetags.tag.yikes
+        - deluxetags.tag.classic
+        - deluxetags.tag.mlg
+        - deluxetags.tag.rgb
+        - deluxetags.tag.friendly
+        - deluxetags.tag.kawaii
+        - deluxetags.tag.l
+        - deluxetags.tag.w
+        - deluxetags.tag.f
+        - deluxetags.tag.nope
+        - deluxetags.tag.streak
+        - deluxetags.tag.hot
+        - deluxetags.tag.cold
+        - deluxetags.tag.og
+        - deluxetags.tag.cps
+        - deluxetags.tag.water
+        - deluxetags.tag.lightning
+        - deluxetags.tag.doug
+        - deluxetags.tag.oldschool
+    options:
+      name: LordSherman
+    group:
+    - Member
+    permissions:
+    - gadgetsmenu.hats.chocolatedonut
+  28bb290c-cce5-481c-b158-d7f9a042100d:
+    worlds:
+      Boost_world:
+        permissions:
+        - deluxetags.tag.hot
+        - deluxetags.tag.cold
+        - deluxetags.tag.og
+        - deluxetags.tag.cps
+        - deluxetags.tag.water
+        - deluxetags.tag.lightning
+        - deluxetags.tag.doug
+        - deluxetags.tag.mlg
+        - deluxetags.tag.rgb
+        - deluxetags.tag.friendly
+        - deluxetags.tag.kawaii
+        - deluxetags.tag.l
+        - deluxetags.tag.w
+        - deluxetags.tag.f
+        - deluxetags.tag.nope
+        - deluxetags.tag.streak
+        - deluxetags.tag.millionaire
+        - deluxetags.tag.icebreaker
+        - deluxetags.tag.pro
+        - deluxetags.tag.expert
+        - deluxetags.tag.kappa
+        - deluxetags.tag.lol
+        - deluxetags.tag.oof
+        - deluxetags.tag.yikes
+        - deluxetags.tag.classic
+        - deluxetags.tag.winner
+        - deluxetags.tag.happy
+        - deluxetags.tag.pog
+        - deluxetags.tag.chill
+        - deluxetags.tag.ez
+        - deluxetags.tag.booster
+        - deluxetags.tag.afk
+        - deluxetags.tag.cool
+        - deluxetags.tag.smooth
+        - deluxetags.tag.oldschool
+    options:
+      name: SpiderRobotMan
+    permissions:
+    - gadgetsmenu.banners.heart
+  7f8c43be-31b1-4c95-b985-537603e69f11:
+    worlds:
+      Boost_world:
+        permissions:
+        - deluxetags.tag.mlg
+        - deluxetags.tag.cps
+    options:
+      name: Firelark
+  fea22ef0-3efd-463b-8d3f-cc0e543fa57c:
+    group:
+    - OWNER
+    options:
+      name: Smattox
+  43015a4f-140e-474e-872f-f7b0b4d79313:
+    group:
+    - OWNER
+    options:
+      name: Jigbon
+  98eaee23-6d42-4c3c-9175-3cf1b96da2e8:
+    group:
+    - VIP
+    options:
+      name: Juel
+  29f0badb-7522-445b-88bc-56f662bb72c8:
+    worlds:
+      Boost_world:
+        permissions:
+        - deluxetags.tag.ez
+    options:
+      name: Atomosic
+  040b9245-aecb-49ba-a25f-b4a7cc544437:
+    permissions:
+    - deluxetags.tag.booster
+    options:
+      name: ObitoNamikaze
+  58e04810-1da0-4e17-ba7f-f2c22e90047f:
+    permissions:
+    - deluxetags.tag.booster
+    - gadgetsmenu.hats.slime
+    options:
+      name: Retrovidya
+  7a6328cd-e1fb-4a07-a551-e9dfdbd24eea:
+    permissions:
+    - deluxetags.tag.pog
+    - deluxetags.tag.afk
+    options:
+      name: Fraeduu
+  8197197d-a638-4c9f-b65c-0c9ddb566cf4:
+    permissions:
+    - gadgetsmenu.hats.jake
+    - deluxetags.tag.cool
+    worlds:
+      Boost_world:
+        permissions:
+        - deluxetags.tag.ez
+    options:
+      name: EliasEnamorado
+  6ed242e5-bb44-45d5-ba45-6be4dc092387:
+    permissions:
+    - gadgetsmenu.hats.chocolatedonut
+    - deluxetags.tag.happy
+    - gadgetsmenu.hats.jake
+    options:
+      name: DrewPdrawers
+  3716427e-76ac-4df4-a50a-706618a70f0c:
+    permissions:
+    - deluxetags.tag.icebreaker
+    - gadgetsmenu.banners.guitar
+    options:
+      name: Cory
+  20fb0129-d6e6-4eab-b2d7-926a8c872722:
+    permissions:
+    - deluxetags.tag.ez
+    - gadgetsmenu.hats.whitechocolatebar
+    - gadgetsmenu.hats.koala
+    options:
+      name: rembihnutur

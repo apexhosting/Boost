@@ -1,0 +1,28 @@
+20.10.2020 - 01:45:30 - [TAB v2.8.7] Group "VIP" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "VIP" into group-sorting-priority-list in config.yml.
+20.10.2020 - 01:47:05 - [TAB v2.8.7] Group "VIP" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "VIP" into group-sorting-priority-list in config.yml.
+20.10.2020 - 01:57:18 - [TAB v2.8.7] An error occurred when refreshing placeholders
+20.10.2020 - 01:57:18 - java.util.ConcurrentModificationException: null
+20.10.2020 - 01:57:18 -        at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1493)
+20.10.2020 - 01:57:18 -        at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1516)
+20.10.2020 - 01:57:18 -        at java.base/java.util.AbstractCollection.addAll(AbstractCollection.java:351)
+20.10.2020 - 01:57:18 -        at java.base/java.util.HashSet.<init>(HashSet.java:120)
+20.10.2020 - 01:57:18 -        at me.neznamy.tab.shared.features.PlaceholderManager$1.run(PlaceholderManager.java:78)
+20.10.2020 - 01:57:18 -        at me.neznamy.tab.shared.cpu.CPUManager$4.run(CPUManager.java:119)
+20.10.2020 - 01:57:18 -        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+20.10.2020 - 01:57:18 -        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+20.10.2020 - 01:57:18 -        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+20.10.2020 - 01:57:18 -        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+20.10.2020 - 01:57:18 -        at java.base/java.lang.Thread.run(Thread.java:834)
+20.10.2020 - 01:58:39 - [TAB v2.8.7] An error occurred when refreshing placeholders
+20.10.2020 - 01:58:39 - java.util.ConcurrentModificationException: null
+20.10.2020 - 01:58:39 -        at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1493)
+20.10.2020 - 01:58:39 -        at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1516)
+20.10.2020 - 01:58:39 -        at java.base/java.util.AbstractCollection.addAll(AbstractCollection.java:351)
+20.10.2020 - 01:58:39 -        at java.base/java.util.HashSet.<init>(HashSet.java:120)
+20.10.2020 - 01:58:39 -        at me.neznamy.tab.shared.features.PlaceholderManager$1.run(PlaceholderManager.java:78)
+20.10.2020 - 01:58:39 -        at me.neznamy.tab.shared.cpu.CPUManager$4.run(CPUManager.java:119)
+20.10.2020 - 01:58:39 -        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+20.10.2020 - 01:58:39 -        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+20.10.2020 - 01:58:39 -        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+20.10.2020 - 01:58:39 -        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+20.10.2020 - 01:58:39 -        at java.base/java.lang.Thread.run(Thread.java:834)

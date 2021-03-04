@@ -1,0 +1,68 @@
+NPCS:
+  '1':
+    Commands:
+    - 1~~~boost status~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '2':
+    Commands:
+    - 1~~~boost stats~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '3':
+    Commands:
+    - 1~~~boost top Daily~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '4':
+    Commands:
+    - 1~~~boost top Weekly~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '7':
+    Commands:
+    - 1~~~boost top Monthly~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '8':
+    Commands:
+    - 1~~~warp Help~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '16':
+    Commands:
+    - 1~~~boost leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+    - 2~~~boost leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '20':
+    Commands:
+    - 1~~~boost leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+    - 2~~~boost leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '17':
+    Commands:
+    - 1~~~boost leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '18':
+    Commands:
+    - 1~~~boost leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '19':
+    Commands:
+    - 1~~~boost leave~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '9':
+    Commands:
+    - 1~~~boost join Arena1~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '13':
+    Commands:
+    - 1~~~boost join Arena5~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '10':
+    Commands:
+    - 1~~~boost join Arena2~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '11':
+    Commands:
+    - 1~~~boost join Arena3~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '12':
+    Commands:
+    - 1~~~boost join Arena4~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '15':
+    Commands:
+    - 1~~~tags~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '5':
+    Commands:
+    - 1~~~ptime night~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '6':
+    Commands:
+    - 1~~~ptime day~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '14':
+    Commands:
+    - 1~~~tagshop~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~gadgetsmenu main~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '22':
+    Commands:
+    - 1~~~gmenu main~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~gadgetsmenu menu particles~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
