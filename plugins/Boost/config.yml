@@ -3,24 +3,28 @@
 #  games:
 #    Arena1:
 #      name: '&aArena1'
+#      game_type: ELIMINATION
 #      ground: 64
 #      ceiling: -1
 #      return_to_start_at_ground: false
 #      target_dist: 150
+#      target_players: true
 #      countdown: 30
 #      min_players: 2
 #      max_players: 0
 #      auto_queue: true
 #      countdown_announce_time: 10
 #      requires_permission: false
+#      win_block: ''
 #      boost_block: REDSTONE_ORE
 #      gui_item: GLASS
-#      game_start:
-#        world: world
-#        x: 100
-#        y: 64
-#        z: 0
-#        spread: 4
+#      game_starts:
+#        Start1:
+#          world: world
+#          x: 100
+#          y: 64
+#          z: 0
+#          spread: 4
 #      game_loss:
 #        world: world
 #        x: 0
@@ -90,13 +94,6 @@ games:
     min_players: 2
     max_players: 0
     auto_queue: true
-    game_start:
-      world: Boost_world
-      x: -88
-      y: 28
-      z: 5
-      spread: 4
-      yaw: 0
     game_lobby:
       world: Boost_world
       x: -36
@@ -119,6 +116,14 @@ games:
     countdown_announce_time: 10
     ceiling: -1
     requires_permission: false
+    game_starts:
+      Start1:
+        world: Boost_world
+        x: -88
+        y: 28
+        z: 5
+        spread: 4
+        yaw: 0
   Arena2:
     name: '&9Arena2'
     ground: 4
@@ -133,13 +138,6 @@ games:
       z: 36
       yaw: 0
       spread: 0
-    game_start:
-      world: Boost_world
-      x: 0
-      y: 147
-      z: 130
-      spread: 8
-      yaw: 0
     game_loss:
       world: Boost_world
       x: -20
@@ -155,6 +153,14 @@ games:
     - eco give %player% 100
     - cr give to %player% RewardsCrate
     - titlemanager message %player% &A&lVICTORY\n&E⚡&7Good Game&e⚡
+    game_starts:
+      Start1:
+        world: Boost_world
+        x: 0
+        y: 147
+        z: 130
+        spread: 8
+        yaw: 0
   Arena3:
     name: '&cArena3'
     ground: 4
@@ -169,13 +175,6 @@ games:
       z: 0
       yaw: -90
       spread: 0
-    game_start:
-      world: Boost_world
-      x: 74
-      y: 51
-      z: 2
-      spread: 2
-      yaw: 0
     game_loss:
       world: Boost_world
       x: 84
@@ -190,6 +189,14 @@ games:
     - eco give %player% 100
     - cr give to %player% RewardsCrate
     - titlemanager message %player% &A&lVICTORY\n&E⚡&7Good Game&e⚡
+    game_starts:
+      Start1:
+        world: Boost_world
+        x: 74
+        y: 51
+        z: 2
+        spread: 2
+        yaw: 0
   Arena4:
     name: '&2Arena4'
     ground: 1
@@ -204,13 +211,6 @@ games:
       z: -36
       yaw: 180
       spread: 0
-    game_start:
-      world: Boost_world
-      x: 0
-      y: 5
-      z: -79
-      spread: 4
-      yaw: 0
     game_loss:
       world: Boost_world
       x: 0
@@ -228,6 +228,14 @@ games:
     return_to_start_at_ground: false
     boost_block: ''
     gui_item: ''
+    game_starts:
+      Start1:
+        world: Boost_world
+        x: 0
+        y: 5
+        z: -79
+        spread: 4
+        yaw: 0
   Arena5:
     name: '&dArena5'
     ground: -1
@@ -238,13 +246,6 @@ games:
     auto_queue: true
     countdown_announce_time: 10
     requires_permission: false
-    game_start:
-      world: Boost_world
-      x: -120
-      y: 97
-      z: 120
-      yaw: -303
-      spread: 4
     game_loss:
       world: Boost_world
       x: -120
@@ -264,6 +265,14 @@ games:
     - cr give to %player% RewardsCrate
     - titlemanager message %player% &A&lVICTORY\n&E⚡&7Good Game&e⚡
     ceiling: 161
+    game_starts:
+      Start1:
+        world: Boost_world
+        x: -120
+        y: 97
+        z: 120
+        yaw: -303
+        spread: 4
   Arena6:
     name: '&7Arena6'
     ground: 11
@@ -279,13 +288,6 @@ games:
     gui_item: ''
     countdown_announce_time: 10
     win_commands: []
-    game_start:
-      world: Boost_world
-      x: 361
-      y: 47
-      z: -285
-      yaw: 89
-      spread: 0
     game_lobby:
       world: Boost_world
       x: 287
@@ -300,6 +302,14 @@ games:
       z: -285
       yaw: -88
       spread: 0
+    game_starts:
+      Start1:
+        world: Boost_world
+        x: 361
+        y: 47
+        z: -285
+        yaw: 89
+        spread: 0
 win_commands:
   daily:
     first: []
@@ -318,3 +328,9 @@ other_commands:
   allowed_commands:
   - boost
   - msg
+particles:
+  boost: {}
+  hit: {}
+  boosted: {}
+bar:
+  game_start_boost_delay: {}
