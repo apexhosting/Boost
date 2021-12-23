@@ -46,9 +46,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -77,9 +78,10 @@ npc:
         pitch: '10.4995'
       type: PLAYER
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -108,9 +110,10 @@ npc:
         pitch: '6.9'
       type: PLAYER
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -139,9 +142,10 @@ npc:
         pitch: '6.4496'
       type: PLAYER
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -170,9 +174,10 @@ npc:
         pitch: '5.4159'
       type: PLAYER
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -214,9 +219,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -258,9 +264,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -289,9 +296,10 @@ npc:
         pitch: '10.7995'
       type: PLAYER
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -333,9 +341,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -377,9 +386,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -408,9 +418,10 @@ npc:
       type: PLAYER
       spawned: true
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -439,9 +450,10 @@ npc:
       type: PLAYER
       spawned: true
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -483,9 +495,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -527,9 +540,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -571,9 +585,10 @@ npc:
           '0': 0.0
           '1': 360.0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,lookclose,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -602,9 +617,10 @@ npc:
       type: PLAYER
       spawned: true
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -633,9 +649,10 @@ npc:
       type: PLAYER
       spawned: true
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -664,9 +681,10 @@ npc:
       type: PLAYER
       spawned: true
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,scoreboardtrait,owner,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -695,9 +713,10 @@ npc:
       type: PLAYER
       spawned: true
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,location,equipment,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -726,9 +745,10 @@ npc:
       type: PLAYER
       spawned: true
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -759,6 +779,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: gadgetsmenu menu particles
@@ -770,9 +792,10 @@ npc:
             n: -1
             delay: 0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: owner,scoreboardtrait,equipment,location,skintrait,commandtrait,mounttrait,inventory,type,spawned
+      sneak:
+        sneaking: false
+    traitnames: inventory,mounttrait,skintrait,commandtrait,location,sneak,type,owner,scoreboardtrait,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
