@@ -1,3 +1,4 @@
+#usage: %animation:NAME%
 MyAnimation1:
   change-interval: 100
   texts:

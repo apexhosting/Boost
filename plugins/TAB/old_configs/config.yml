@@ -139,12 +139,3 @@ primary-group-finding-list:
 - Helper
 - default
 assign-groups-by-permissions: false
-debug: false
-anti-override:
-  scoreboard-teams: true
-  tablist-names: true
-  usernames: true
-  scoreboard-objectives: true
-invisible-nametags: false
-ping-spoof:
-  enabled: false

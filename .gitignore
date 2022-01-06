@@ -1,4 +1,3 @@
-
 *.zip
 banned-ips.json
 banned-players.json
@@ -13,3 +12,7 @@ usercache.json
 version_history.json
 wepif.yml
 whitelist.json
+plugins/Essentials/userdata/*
+plugins/Essentials/usermap.csv
+plugins/Multiverse-Inventories/players/*
+plugins/PluginMetrics/config.yml
