@@ -10,9 +10,15 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+use-display-name-in-quit-message: false
 verbose: false
-config-version: 20
+config-version: 24
 settings:
+  fix-target-selector-tag-completion: true
+  lag-compensate-block-breaking: true
+  send-full-pos-for-hard-colliding-entities: true
+  log-player-ip-addresses: true
+  log-named-entity-deaths: true
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
@@ -58,6 +64,30 @@ settings:
     total-multiplier: 0.98
   async-chunks:
     threads: -1
+  use-display-name-in-quit-message: false
+  console:
+    enable-brigadier-highlighting: true
+    enable-brigadier-completions: true
+  loggers:
+    deobfuscate-stacktraces: true
+  item-validation:
+    display-name: 8192
+    loc-name: 8192
+    lore-line: 8192
+    book:
+      title: 8192
+      author: 8192
+      page: 16384
+  packet-limiter:
+    kick-message: '&cSent too many packets'
+    limits:
+      all:
+        interval: 7.0
+        max-packet-rate: 500.0
+      PacketPlayInAutoRecipe:
+        interval: 4.0
+        max-packet-rate: 5.0
+        action: DROP
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -67,6 +97,7 @@ messages:
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
 timings:
+  url: https://timings.aikar.co/
   enabled: true
   verbose: true
   server-name-privacy: false
@@ -79,6 +110,22 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    piglins-guard-chests: true
+    map-item-frame-cursor-update-interval: 10
+    anticheat:
+      obfuscation:
+        items:
+          hide-itemmeta: false
+          hide-durability: false
+    monster-spawn-max-light-level: -1
+    split-overstacked-loot: true
+    allow-using-signs-inside-spawn-protection: false
+    fix-wither-targeting-bug: false
+    allow-player-cramming-damage: false
+    map-item-frame-cursor-limit: 128
+    seed-based-feature-search-loads-chunks: true
+    fix-items-merging-through-walls: false
+    show-sign-click-command-failure-msgs-to-player: false
     update-pathfinding-on-block-update: true
     should-remove-dragon: false
     ender-dragons-death-always-places-dragon-egg: false
@@ -96,7 +143,7 @@ world-settings:
     experience-merge-max-value: -1
     max-auto-save-chunks-per-tick: 24
     count-all-mobs-for-spawning: false
-    per-player-mob-spawns: false
+    per-player-mob-spawns: true
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     filter-nbt-data-from-spawn-eggs-and-related: true
@@ -171,8 +218,30 @@ world-settings:
       MinimumTicks: 100
       MaximumTicks: 600
     despawn-ranges:
-      soft: 32
-      hard: 128
+      monster:
+        soft: 32
+        hard: 128
+      creature:
+        soft: 32
+        hard: 128
+      ambient:
+        soft: 32
+        hard: 128
+      axolotls:
+        soft: 32
+        hard: 128
+      underground_water_creature:
+        soft: 32
+        hard: 128
+      water_creature:
+        soft: 32
+        hard: 128
+      water_ambient:
+        soft: 32
+        hard: 64
+      misc:
+        soft: 32
+        hard: 128
     frosted-ice:
       enabled: true
       delay:
@@ -190,6 +259,7 @@ world-settings:
       items:
         COBBLESTONE: 300
     hopper:
+      ignore-occluding-blocks: true
       cooldown-when-full: true
       disable-move-event: false
     lightning-strike-distance-limit:
@@ -199,6 +269,7 @@ world-settings:
     generator-settings:
       flat-bedrock: false
     anti-xray:
+      max-block-height: 64
       lava-obscures: false
       use-permission: false
       enabled: false
@@ -241,7 +312,34 @@ world-settings:
       - NORMAL
       - HARD
     entity-per-chunk-save-limit:
+      fireball: -1
+      small_fireball: -1
       experience_orb: -1
       snowball: -1
       ender_pearl: -1
       arrow: -1
+    mob-effects:
+      undead-immune-to-certain-effects: true
+      spiders-immune-to-poison-effect: true
+      immune-to-wither-effect:
+        wither: true
+        wither-skeleton: true
+    spawn-limits:
+      monster: -1
+      creature: -1
+      axolotls: -1
+      underground_water_creature: -1
+      water_creature: -1
+      water_ambient: -1
+      ambient: -1
+    tick-rates:
+      sensor:
+        villager:
+          secondarypoisensor: 40
+      behavior:
+        villager:
+          validatenearbypoi: -1
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true
+    feature-seeds:
+      generate-random-seeds-for-all: false

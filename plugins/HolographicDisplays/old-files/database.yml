@@ -1,0 +1,208 @@
+Help:
+  location: Boost_world, -7.459, 5.801, 10.278
+  lines:
+  - '&c&lHOW TO PLAY?'
+  - '&aClick &7on the block under a player from a distance'
+  - '&7it will &cboost &7them &cup &7and &coff &7from their platform.'
+  - '&aWin &7by being the last player that &chasn''t fallen!'
+i1:
+  location: Boost_world, -5.560, 7.683, -2.578
+  lines:
+  - '&7Right Click'
+i2:
+  location: Boost_world, -5.543, 7.683, 3.713
+  lines:
+  - '&7Right Click'
+i3:
+  location: Boost_world, -1.399, 7.683, 6.422
+  lines:
+  - '&7Right Click'
+i4:
+  location: Boost_world, 2.378, 7.683, 6.345
+  lines:
+  - '&7Right Click'
+i5:
+  location: Boost_world, 6.610, 7.683, 2.455
+  lines:
+  - '&7Right Click'
+i6:
+  location: Boost_world, 6.474, 7.683, -1.504
+  lines:
+  - '&7Right Click'
+i7:
+  location: Boost_world, 2.582, 7.683, -5.661
+  lines:
+  - '&7Right Click'
+i8:
+  location: Boost_world, -1.454, 7.683, -5.669
+  lines:
+  - '&7Right Click'
+i9:
+  location: Boost_world, -1.540, 8.020, -5.702
+  lines:
+  - '&aDaily'
+i10:
+  location: Boost_world, 2.568, 8.020, -5.718
+  lines:
+  - '&eWeekly'
+i11:
+  location: Boost_world, 2.533, 8.020, 6.414
+  lines:
+  - '&cMonthly'
+i12:
+  location: Boost_world, -14.645, 6.557, -0.662
+  lines:
+  - '&7Right Click'
+i13:
+  location: Boost_world, -15.233, 6.557, 13.698
+  lines:
+  - '&7Right Click'
+i14:
+  location: Boost_world, -0.793, 6.557, 15.398
+  lines:
+  - '&7Right Click'
+i15:
+  location: Boost_world, 15.390, 6.557, 1.563
+  lines:
+  - '&7Right Click'
+i16:
+  location: Boost_world, 14.748, 6.557, -11.486
+  lines:
+  - '&7Right Click'
+i17:
+  location: Boost_world, 12.609, 6.557, -14.316
+  lines:
+  - '&7Right Click'
+i18:
+  location: Boost_world, 1.428, 6.557, -14.833
+  lines:
+  - '&7Right Click'
+i19:
+  location: Boost_world, -39.116, 6.557, -0.743
+  lines:
+  - '&7Right Click'
+i20:
+  location: Boost_world, -39.346, 6.592, 35.603
+  lines:
+  - '&7Right Click'
+i21:
+  location: Boost_world, -0.425, 6.592, 40.338
+  lines:
+  - '&7Right Click'
+i22:
+  location: Boost_world, 40.514, 6.592, 1.364
+  lines:
+  - '&7Right Click'
+i23:
+  location: Boost_world, 1.588, 6.592, -39.536
+  lines:
+  - '&7Right Click'
+Welcome:
+  location: Boost_world, -9.227, 7.300, 0.613
+  lines:
+  - '&9&lAPEX &7&lBOOST'
+  - '&7Welcome to our &9Boost &7Gametype!'
+  - '&7Prepare to have &aReal Fun!'
+  - '&9Boost or &7get Boosted!'
+Tags:
+  location: Boost_world, 7.964, 6.854, -6.900
+  lines:
+  - '&b&lTAGS'
+  - '&7Tags are &aSpecial Titles &7you can add next to your name.'
+  - '&7You can acquire them in the &aShop'
+  - '&7Gain &bMoney &7by &aWinning &7Games!'
+Time:
+  location: Boost_world, 7.162, 8.356, 0.569
+  lines:
+  - '&c&lTOO DARK?'
+  - '&7You can change the time &9anytime&7!'
+help2:
+  location: Boost_world, -38.642, 6.868, 4.660
+  lines:
+  - '&c&lHOW TO PLAY?'
+  - '&aClick &7on the block under a player from a distance'
+  - '&7it will &cboost &7them &cup &7and &coff &7from their platform.'
+  - '&aWin &7by being the last player that &chasn''t fallen!'
+help3:
+  location: Boost_world, -40.183, 6.868, 40.909
+  lines:
+  - '&c&lHOW TO PLAY?'
+  - '&aClick &7on the block under a player from a distance'
+  - '&7it will &cboost &7them &cup &7and &coff &7from their platform.'
+  - '&aWin &7by being the last player that &chasn''t fallen!'
+help4:
+  location: Boost_world, 5.333, 6.868, 41.171
+  lines:
+  - '&c&lHOW TO PLAY?'
+  - '&aClick &7on the block under a player from a distance'
+  - '&7it will &cboost &7them &cup &7and &coff &7from their platform.'
+  - '&aWin &7by being the last player that &chasn''t fallen!'
+help5:
+  location: Boost_world, 40.253, 6.868, -4.241
+  lines:
+  - '&c&lHOW TO PLAY?'
+  - '&aClick &7on the block under a player from a distance'
+  - '&7it will &cboost &7them &cup &7and &coff &7from their platform.'
+  - '&aWin &7by being the last player that &chasn''t fallen!'
+help6:
+  location: Boost_world, -4.654, 6.868, -39.690
+  lines:
+  - '&c&lHOW TO PLAY?'
+  - '&aClick &7on the block under a player from a distance'
+  - '&7it will &cboost &7them &cup &7and &coff &7from their platform.'
+  - '&aWin &7by being the last player that &chasn''t fallen!'
+warning:
+  location: Boost_world, -35.802, 6.182, 33.137
+  lines:
+  - '&c&lIMPORTANT'
+  - '&7You need to reach the &cTOP &7to &aWIN&7!'
+Win:
+  location: Boost_world, 11.639, 23.118, -14.404
+  lines:
+  - '&c&lWINNERS SPOT'
+  - '&EGG'
+Parkour:
+  location: Boost_world, 6.890, 6.106, 7.590
+  lines:
+  - '&a&lPARKOUR'
+  - '&7Will you be able to &areach &7the &ctop?'
+Crates:
+  location: Boost_world, -7.704, 7.604, -7.599
+  lines:
+  - '&5&lCRATES'
+  - '&eOpen them to get awesome rewards!'
+  - '&7You can get &aKeys &7by &awinning &7games!'
+r1:
+  location: Boost_world, 9.930, 22.421, -12.948
+  lines:
+  - '&a&lREWARDS'
+  - '&7Upload a screenshot into'
+  - '&7on our discord'
+  - '&7in the channel &e#playapexmc-discussion'
+  - '&7to get a &aspecial reward!'
+leaderboard:
+  location: Boost_world, -10.797, 8.027, -2.966
+  lines:
+  - '&e&l⚡ &7&lLEADERBOARD &e&l⚡'
+  - '&e----------------------'
+  - '&7Top &e3 &7Winners'
+  - '&71. &e%boost_top_total_first_player% &7with &e%boost_top_total_first_wins% &7wins.'
+  - '&72. &e%boost_top_total_second_player% &7with &e%boost_top_total_second_wins%
+    &7wins.'
+  - '&73. &e%boost_top_total_third_player% &7with &e%boost_top_total_third_wins% &7wins.'
+a1:
+  location: Boost_world, -113.853, 101.556, 120.558
+  lines:
+  - '&c&lREACH THE TOP'
+a2:
+  location: Boost_world, -119.755, 101.556, 116.055
+  lines:
+  - '&c&lREACH THE TOP'
+a3:
+  location: Boost_world, -126.483, 101.556, 120.223
+  lines:
+  - '&c&lREACH THE TOP'
+a4:
+  location: Boost_world, -119.096, 101.556, 127.181
+  lines:
+  - '&c&lREACH THE TOP'

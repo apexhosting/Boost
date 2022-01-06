@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.4]
+
+### Chnaged
+- Updated Main and plugin jars to 1.18.1
+
 ## [1.3]
 
 ### Chnaged
@@ -21,6 +26,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[1.4]: https://github.com/apexhosting/Hardcore/releases/tag/1.4
 [1.3]: https://github.com/apexhosting/Hardcore/releases/tag/1.3
 [1.2]: https://github.com/apexhosting/Hardcore/releases/tag/1.2
 [1.0.1]: https://github.com/apexhosting/Hardcore/releases/tag/1.0.1
