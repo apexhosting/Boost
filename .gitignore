@@ -16,3 +16,5 @@ plugins/Essentials/userdata/*
 plugins/Essentials/usermap.csv
 plugins/Multiverse-Inventories/players/*
 plugins/PluginMetrics/config.yml
+cache/*
+versions/*

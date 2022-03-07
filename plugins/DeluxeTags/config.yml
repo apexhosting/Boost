@@ -1,4 +1,4 @@
-# DeluxeTags version: 1.8.1 Main Configuration
+# DeluxeTags version: 1.8.2-DEV-null Main Configuration
 #
 # Create your tags using the following format:
 #
@@ -8,7 +8,7 @@
 #     tag: '&7[&eVIP&7]'
 #     description: 'This tag is awarded by getting VIP'
 #
-# Placeholders for your DeluxeChat formats config:
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
 #
 # %deluxetags_identifier% - display the players active tag identifier
 # %deluxetags_tag% - display the players active tag
@@ -22,7 +22,7 @@
 # {deluxetags_description} - display the players active tag description
 # {deluxetags_amount} - display the amount of tags a player has access to
 
-# DeluxeTags version: 1.8.1 Main Configuration
+# DeluxeTags version: 1.8.2-DEV-null Main Configuration
 #
 # Create your tags using the following format:
 #
@@ -32,7 +32,7 @@
 #     tag: '&7[&eVIP&7]'
 #     description: 'This tag is awarded by getting VIP'
 #
-# Placeholders for your DeluxeChat formats config:
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
 #
 # %deluxetags_identifier% - display the players active tag identifier
 # %deluxetags_tag% - display the players active tag
@@ -45,6 +45,11 @@
 # {deluxetags_tag} - display the players active tag
 # {deluxetags_description} - display the players active tag description
 # {deluxetags_amount} - display the amount of tags a player has access to
+legacy_hex: false
+papi_chat: true
+tag_availability:
+  available: 'yes'
+  unavailable: 'no'
 force_tags: false
 check_updates: true
 deluxe_chat: false
@@ -53,6 +58,18 @@ format_chat:
   format: '{deluxetags_tag} <%1$s> %2$s'
 load_tag_on_join: true
 gui:
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
   name: '&6Available tags&f: &6{deluxetags_amount}'
   tag_select_item:
     material: NAME_TAG
