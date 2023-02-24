@@ -1,0 +1,38 @@
+timestamps:
+  login: 1641481701261
+  logout: 1641481937246
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: Boost_world
+  x: 0.5
+  y: 5.0
+  z: 0.5
+  yaw: 87.47785186767578
+  pitch: -9.150263786315918
+  world-name: ''
+ip-address: 103.100.225.214
+last-account-name: robert_beckley
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+money: '0'
+logoutlocation:
+  world: 4bd54131-1e6a-414b-b16e-7baa626f6c86
+  world-name: Boost_world
+  x: 0.5
+  y: 4.0
+  z: 0.5
+  yaw: 88.94938659667969
+  pitch: 10.200274467468262
